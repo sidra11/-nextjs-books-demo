@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 
 import Card from '../ui/Card';
-import classes from './bookItem.module.css';
+import classes from './BookItem.module.css';
 
 function BookItem(props) {
   const router = useRouter();
