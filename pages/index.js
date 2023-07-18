@@ -7,8 +7,8 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <titl>My Book Collection </titl>
-        <meta name='description' content='Browse my Book collection '></meta>
+        <title>My Book Collection </title>
+        <meta name='description' content='Browse my Book collection'></meta>
       </Head>
       <BookList books={props.books} />
     </Fragment>
